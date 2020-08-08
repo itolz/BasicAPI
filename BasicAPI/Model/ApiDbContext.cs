@@ -8,5 +8,7 @@ namespace BasicAPI.Model
         {
             
         }
+
+        public DbSet<FornecedorModel> Fornecedores {get; set;}
     }
 }

@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BasicAPI.Model
 {
-    public class FornecedorViewModel
+    public class FornecedorModel
     {
         [Key]
         public Guid Id { get; set; }
